@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Life Insurance Quote | Dail Stancill</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <div class="w-full bg-slate-900 text-white text-sm py-2">
+    <div class="max-w-3xl mx-auto px-4 flex items-center justify-between">
+      <p>Licensed agent: <b>Dail Stancill, PE • VA</b></p>
+      <a class="underline" href="tel:15402394791">Call: 540-239-4791</a>
+    </div>
+  </div>
+
+  <section class="max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold">
+      Lock in your life insurance rate in <span class="underline decoration-emerald-400">60 seconds</span>.
+    </h1>
+    <p class="mt-3">Instant options from A+ carriers. No medical exam. Local, licensed help.</p>
+    <ul class="mt-4 space-y-1">
+      <li>✔ Protect income, mortgage & debts</li>
+      <li>✔ Same-day approvals available</li>
+      <li>✔ Compare multiple carriers — your choice</li>
+    </ul>
+  </section>
+
+  <section id="quick-quote" class="max-w-3xl mx-auto px-4">
+    <div class="bg-white border rounded-2xl p-5 shadow">
+      <h2 class="text-xl font-semibold mb-3">Get your 60-second quote</h2>
+
+      <form action="https://formsubmit.co/el/fihide" method="POST" class="grid gap-3">
+        <input type="hidden" name="_subject" value="New Life Insurance Lead">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <!-- ✅ root-domain redirect -->
+        <input type="hidden" name="_next" value="https://ndstancill.github.io/success.html">
+
+        <input class="border rounded-xl px-4 py-3" name="Full Name" placeholder="Full name" required>
+        <input class="border rounded-xl px-4 py-3" name="Phone" placeholder="Mobile phone" required>
+        <input class="border rounded-xl px-4 py-3" type="email" name="Email" placeholder="Email (optional)">
+        <div class="grid grid-cols-2 gap-3">
+          <input class="border rounded-xl px-4 py-3" name="ZIP" placeholder="ZIP" required>
+          <select class="border rounded-xl px-4 py-3" name="Age Range" required>
+            <option value="" disabled selected>Age</option>
+            <option>18-24</option><option>25-34</option><option>35-44</option>
+            <option>45-54</option><option>55-64</option><option>65+</option>
+          </select>
+        </div>
+
+        <button class="bg-emerald-500 hover:bg-emerald-400 text-white font-semibold rounded-xl px-6 py-3">
+          Get My Instant Options
+        </button>
+      </form>
+
+      <p class="text-xs text-slate-500 mt-2">
+        By submitting, you agree to get a personal reply from Dail by phone/text. No spam.
+      </p>
+
+      <a class="mt-3 inline-block bg-slate-900 text-white rounded-xl px-4 py-2"
+         href="sms:+15402394791?&body=Hi%20Dail%2C%20please%20send%20my%20life%20insurance%20quote.">
+         📲 Or text me my quote
+      </a>
+    </div>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-4 py-8">
+    <h3 class="text-xl font-semibold mb-3">Prefer to start on a partner site?</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+      <a class="border rounded-xl p-4 hover:shadow" href="https://ethoslife.com" target="_blank" rel="noopener">
+        <b>Ethos</b><div class="text-sm text-slate-600">Term & Final Expense</div>
+      </a>
+      <a class="border rounded-xl p-4 hover:shadow" href="https://back9ins.com" target="_blank" rel="noopener">
+        <b>Back9</b><div class="text-sm text-slate-600">Multi-Carrier Quotes</div>
+      </a>
+      <a class="border rounded-xl p-4 hover:shadow" href="https://hellosimplicity.com" target="_blank" rel="noopener">
+        <b>Simplicity</b><div class="text-sm text-slate-600">No-Exam Policies</div>
+      </a>
+      <a class="border rounded-xl p-4 hover:shadow" href="https://policygenius.com/life-insurance/" target="_blank" rel="noopener">
+        <b>Policygenius</b><div class="text-sm text-slate-600">Compare Rates</div>
+      </a>
+    </div>
+  </section>
+</body>
+</html>
