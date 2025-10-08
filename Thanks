@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Thanks! We got it.</title>
+  <style>
+    body{font-family:Arial, sans-serif;background:#f4f4f4;margin:0}
+    .wrap{max-width:600px;margin:0 auto;padding:40px;text-align:center}
+    a.btn{display:inline-block;background:#007bff;color:#fff;text-decoration:none;padding:12px 20px;border-radius:6px;margin-top:16px}
+    a.btn:hover{background:#0062cc}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Thanks! We received your request.</h1>
+    <p>I’ll text you shortly with your options. Prefer to talk now? <a href="tel:15402394791">Call 540-239-4791</a>.</p>
+    <a class="btn" href="./">← Back to quote page</a>
+  </div>
+</body>
+</html>
