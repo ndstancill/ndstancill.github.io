@@ -1,123 +1,232 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Life Insurance Quote | Dail Stancill</title>
-  <style>
-    body{font-family:Arial, sans-serif;max-width:600px;margin:0 auto;padding:20px;background:#f4f4f4}
-    h1{color:#333;text-align:center}
-    .step{display:none;background:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.1)}
-    .step.active{display:block;animation:fade .25s}
-    @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
-    input,select{width:100%;padding:10px;margin:10px 0;border:1px solid #ddd;border-radius:6px;box-sizing:border-box}
-    button{background:#007bff;color:#fff;padding:12px 20px;border:0;border-radius:6px;cursor:pointer;width:100%;margin:10px 0}
-    button:hover{background:#0062cc}
-    .btn-back{background:#6c757d}.btn-back:hover{background:#545b62}
-    .progress{text-align:center;margin:20px 0}.bar{background:#ddd;height:5px;border-radius:5px;overflow:hidden}
-    .fill{background:#007bff;height:100%;transition:width .25s}
-    .error{color:#c00;font-size:.9em}
-    footer{text-align:center;margin-top:16px;font-size:.85em;color:#666}
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Virginia Life Insurance Quote in 60 Seconds | Dail Stancill, PE</title>
+  <meta name="description" content="Get your life insurance quote in 60 seconds. No medical exam options from A+ carriers. Local, licensed help from Dail Stancill, PE — serving VA, CA, FL, TX, GA, PA, WV, SC, NC, AL." />
+  <meta name="keywords" content="life insurance quote, term life insurance Virginia, no exam life insurance, Virginia life insurance agent, Dail Stancill" />
+  <link rel="canonical" href="https://ndstancill.github.io/" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Virginia Life Insurance Quote in 60 Seconds | Dail Stancill, PE" />
+  <meta property="og:description" content="Instant options from A+ carriers. No medical exam. Local, licensed help from Dail Stancill, PE." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ndstancill.github.io/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Virginia Life Insurance Quote in 60 Seconds | Dail Stancill, PE" />
+  <meta name="twitter:description" content="Instant options from A+ carriers. No medical exam. Local, licensed help." />
+
+  <!-- Keep your Google Search Console verification tag here if you added one -->
+  <!-- <meta name="google-site-verification" content="YOUR_TOKEN" /> -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1>Lock in Your Life Insurance Rate in 60 Seconds</h1>
-  <p style="text-align:center">Instant options from A+ carriers. No medical exam. Local, licensed help from Dail Stancill, PE • VA.</p>
+<body class="bg-slate-50 text-slate-900">
 
-  <div class="progress">
-    <div class="bar"><div id="fill" class="fill" style="width:0%"></div></div>
-    <p id="ptext">Step 1 of 3</p>
+  <!-- Top tiny header -->
+  <div class="w-full bg-slate-900 text-white text-sm py-2">
+    <div class="max-w-3xl mx-auto px-4 flex items-center justify-between">
+      <p>Licensed agent: <b>Dail Stancill, PE • VA</b></p>
+      <div class="flex gap-4">
+        <a class="underline" href="tel:15402394791">Call: 540-239-4791</a>
+        <a class="underline" href="sms:+15402394791?&body=Hi%20Dail%2C%20please%20send%20my%20life%20insurance%20quote.">Text quote</a>
+      </div>
+    </div>
   </div>
 
-  <!-- Step 1 -->
-  <div id="s1" class="step active">
-    <h2>Step 1: Your Basics</h2>
-    <input id="name" placeholder="Full Name" required>
-    <input id="age" type="number" placeholder="Age" min="18" max="100" required>
-    <input id="email" type="email" placeholder="Email" required>
-    <button onclick="next(1)">Next: Coverage Needs</button>
-    <div id="e1" class="error"></div>
+  <!-- Hero -->
+  <header class="max-w-3xl mx-auto px-4 py-8 text-center">
+    <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+      Lock in Your Life Insurance Rate in <span class="underline decoration-emerald-400">60 Seconds</span>
+    </h1>
+    <p class="mt-4 text-lg md:text-xl text-slate-700">
+      Instant options from A+ carriers. No medical exam. Local, licensed help from
+      <b>Dail Stancill, PE • VA</b>.
+    </p>
+    <div class="mt-5 flex items-center justify-center gap-3">
+      <a href="tel:15402394791"
+         class="inline-flex items-center gap-2 bg-emerald-700 hover:bg-emerald-600 text-white font-semibold rounded-2xl px-5 py-3 shadow">
+        ☎️ <span>Call Dail</span>
+      </a>
+      <a href="sms:+15402394791?&body=Hi%20Dail%2C%20please%20send%20my%20life%20insurance%20quote."
+         class="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-semibold rounded-2xl px-5 py-3 shadow">
+        💬 <span>Text Quote</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Agent card -->
+  <section class="max-w-3xl mx-auto px-4">
+    <div class="bg-white rounded-2xl shadow border p-5 text-center">
+      <p class="text-lg">
+        <b>Dail Stancill, PE</b> · Licensed Virginia Life Insurance Agent
+      </p>
+      <p class="text-slate-600 mt-2">
+        Helping Virginia families secure affordable term and permanent life insurance since 2021.
+        Compare options from Ethos, Back9, Simplicity, and Policygenius in one place.
+      </p>
+      <p class="text-slate-500 text-sm mt-1">
+        Licensed for telesales in VA, CA, FL, TX, GA, PA, WV, SC, NC, AL.
+      </p>
+    </div>
+  </section>
+
+  <!-- Partner buttons (ABOVE the form) -->
+  <section class="max-w-3xl mx-auto px-4 mt-8">
+    <h2 class="text-2xl font-semibold text-center mb-4">Prefer to start on a partner site?</h2>
+
+    <div class="space-y-4">
+      <!-- Ethos -->
+      <a href="https://agents.ethoslife.com/invite/36289" target="_blank" rel="noopener"
+         class="flex items-center justify-between rounded-2xl px-5 py-4 bg-emerald-700 hover:bg-emerald-600 text-white shadow">
+        <div class="flex items-center gap-3">
+          <span class="text-2xl">💼</span>
+          <div>
+            <div class="text-xl font-semibold">Ethos</div>
+            <div class="text-sm opacity-90">Term &amp; Final Expense</div>
+          </div>
+        </div>
+        <span class="text-sm opacity-90">Open →</span>
+      </a>
+
+      <!-- Back9 -->
+      <a href="https://app.back9ins.com/apply/NathanStancill" target="_blank" rel="noopener"
+         class="flex items-center justify-between rounded-2xl px-5 py-4 bg-blue-700 hover:bg-blue-600 text-white shadow">
+        <div class="flex items-center gap-3">
+          <span class="text-2xl">🏛️</span>
+          <div>
+            <div class="text-xl font-semibold">Back9</div>
+            <div class="text-sm opacity-90">Multi-Carrier Quotes</div>
+          </div>
+        </div>
+        <span class="text-sm opacity-90">Open →</span>
+      </a>
+
+      <!-- Simplicity -->
+      <a href="https://lifelink.simplicitygroup.com/agent/stancill-5834?product=accelerated" target="_blank" rel="noopener"
+         class="flex items-center justify-between rounded-2xl px-5 py-4 bg-violet-700 hover:bg-violet-600 text-white shadow">
+        <div class="flex items-center gap-3">
+          <span class="text-2xl">⚡</span>
+          <div>
+            <div class="text-xl font-semibold">Simplicity</div>
+            <div class="text-sm opacity-90">No-Exam (Accelerated)</div>
+          </div>
+        </div>
+        <span class="text-sm opacity-90">Open →</span>
+      </a>
+
+      <!-- Policygenius -->
+      <a href="https://www.policygenius.com/pro/referral/stancill?advisor=Nathan%20Dail-Stancill&uuid=a1ffc1ff-8a95-40a3-92b4-6ba5107c2a12"
+         target="_blank" rel="noopener"
+         class="flex items-center justify-between rounded-2xl px-5 py-4 bg-orange-600 hover:bg-orange-500 text-white shadow">
+        <div class="flex items-center gap-3">
+          <span class="text-2xl">📊</span>
+          <div>
+            <div class="text-xl font-semibold">Policygenius</div>
+            <div class="text-sm opacity-90">Compare Rates</div>
+          </div>
+        </div>
+        <span class="text-sm opacity-90">Open →</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Quote form -->
+  <section id="quick-quote" class="max-w-3xl mx-auto px-4 mt-10 mb-28">
+    <h2 class="sr-only">Get Your Quote</h2>
+
+    <div class="bg-white border rounded-2xl shadow p-5">
+      <p class="text-center text-slate-600 mb-4">
+        Complete this quick form for your 60-second options.
+      </p>
+
+      <!-- Working FormSubmit form -->
+      <form action="https://formsubmit.co/dail.stancill@gmail.com" method="POST" class="grid gap-3">
+        <!-- FormSubmit config -->
+        <input type="hidden" name="_subject" value="New Life Insurance Quote Request">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://ndstancill.github.io/Success.html">
+
+        <div class="grid gap-3 md:grid-cols-2">
+          <input class="border rounded-xl px-4 py-3" name="Full Name" placeholder="Full Name" required>
+          <input class="border rounded-xl px-4 py-3" name="Age" placeholder="Age" type="number" min="18" max="100" required>
+        </div>
+
+        <div class="grid gap-3 md:grid-cols-2">
+          <input class="border rounded-xl px-4 py-3" type="email" name="Email" placeholder="Email" required>
+          <input class="border rounded-xl px-4 py-3" name="Phone" placeholder="Phone (optional)">
+        </div>
+
+        <div class="grid gap-3 md:grid-cols-2">
+          <input class="border rounded-xl px-4 py-3" name="Coverage Amount" placeholder="Coverage Amount ($)" type="number" min="100000" step="10000" required>
+          <select class="border rounded-xl px-4 py-3" name="Term Length" required>
+            <option value="" disabled selected>Select Term Length</option>
+            <option>10 Years</option>
+            <option>20 Years</option>
+            <option>30 Years</option>
+          </select>
+        </div>
+
+        <button class="bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-xl px-6 py-3 mt-1">
+          Get My Instant Options
+        </button>
+      </form>
+
+      <p class="text-xs text-slate-500 mt-2 text-center">
+        By submitting, you agree to get a personal reply from Dail by phone/text. No spam.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sticky Call/Text bar (bottom) -->
+  <div class="fixed left-0 right-0 bottom-0 z-40">
+    <div class="max-w-3xl mx-auto px-4 pb-4">
+      <div class="flex gap-3">
+        <a href="tel:15402394791"
+           class="flex-1 text-center bg-emerald-700 hover:bg-emerald-600 text-white font-semibold rounded-2xl px-4 py-3 shadow">
+          ☎️ Call Dail
+        </a>
+        <a href="sms:+15402394791?&body=Hi%20Dail%2C%20please%20send%20my%20life%20insurance%20quote."
+           class="flex-1 text-center bg-slate-900 hover:bg-slate-800 text-white font-semibold rounded-2xl px-4 py-3 shadow">
+          💬 Text Quote
+        </a>
+      </div>
+    </div>
   </div>
+  <div class="h-24"></div> <!-- spacer so footer items aren't covered -->
 
-  <!-- Step 2 -->
-  <div id="s2" class="step">
-    <h2>Step 2: What You Need</h2>
-    <input id="coverage" type="number" placeholder="Coverage Amount ($)" min="100000" step="10000" required>
-    <select id="term" required>
-      <option value="">Select Term Length</option>
-      <option>10</option><option>20</option><option>30</option>
-    </select>
-    <button onclick="next(2)">Next: Review & Submit</button>
-    <button class="btn-back" onclick="back(2)">Back</button>
-    <div id="e2" class="error"></div>
-  </div>
-
-  <!-- Step 3 -->
-  <div id="s3" class="step">
-    <h2>Step 3: Review Your Quote Request</h2>
-    <div id="summary"></div>
-    <p>By submitting, you agree to get a personal reply from Dail by phone/text. No spam. 
-      <a href="tel:15402394791">Call: 540-239-4791</a></p>
-
-    <!-- ✅ FormSubmit (your verified endpoint) -->
-    <form id="f" action="https://formsubmit.co/el/fihide" method="POST">
-      <input type="hidden" name="_subject" value="New Life Insurance Quote Request">
-      <input type="hidden" name="_template" value="table">
-      <input type="hidden" name="_captcha" value="false">
-      <!-- redirect to local thank-you page at the ROOT domain -->
-      <input type="hidden" name="_next" value="https://ndstancill.github.io/thanks.html">
-
-      <input id="fn" type="hidden" name="Name">
-      <input id="fa" type="hidden" name="Age">
-      <input id="fe" type="hidden" name="Email">
-      <input id="fc" type="hidden" name="Coverage">
-      <input id="ft" type="hidden" name="Term (years)">
-
-      <button type="submit">Submit for Quote</button>
-    </form>
-
-    <button class="btn-back" onclick="back(3)">Back</button>
-    <div id="e3" class="error"></div>
-  </div>
-
-  <footer>
-    ✔ Protect income, mortgage & debts • ✔ Same-day approvals available • ✔ Compare multiple carriers — your choice
-  </footer>
-
+  <!-- Tiny “thanks” toast if returned from FormSubmit (optional) -->
   <script>
-    let step=1,total=3;
-    function setProg(){document.getElementById('fill').style.width=((step-1)/(total-1))*100+'%';document.getElementById('ptext').textContent=`Step ${step} of ${total}`}
-    function show(n){for(let i=1;i<=total;i++){document.getElementById('s'+i).classList.toggle('active',i===n)}step=n;if(n===3)review();setProg()}
-    function next(n){if(!valid(n))return;show(n+1)}
-    function back(n){if(n>1)show(n-1)}
-    function valid(n){
-      const err=document.getElementById('e'+n);err.textContent='';
-      if(n===1){
-        const nm=name.value.trim(),ag=+age.value,em=email.value.trim();
-        if(!nm){err.textContent='Name is required.';return false}
-        if(!(ag>=18)){err.textContent='Age must be 18+.';return false}
-        if(!em.includes('@')){err.textContent='Valid email required.';return false}
-      }else if(n===2){
-        if(!(+coverage.value>=100000)){e2.textContent='Coverage must be ≥ $100,000.';return false}
-        if(!term.value){e2.textContent='Choose a term.';return false}
+    (function () {
+      const p = new URLSearchParams(location.search);
+      if (p.get('submitted') === '1') {
+        const n = document.createElement('div');
+        n.className = 'fixed bottom-28 left-1/2 -translate-x-1/2 bg-emerald-600 text-white px-4 py-3 rounded-xl shadow-lg';
+        n.textContent = 'Thanks! Your request was received — I will text you shortly.';
+        document.body.appendChild(n);
+        setTimeout(() => n.remove(), 5000);
       }
-      return true;
-    }
-    function review(){
-      const cov=+coverage.value;
-      summary.innerHTML=
-        `<p><strong>Name:</strong> ${name.value}</p>
-         <p><strong>Age:</strong> ${age.value}</p>
-         <p><strong>Email:</strong> ${email.value}</p>
-         <p><strong>Coverage:</strong> $${cov.toLocaleString()}</p>
-         <p><strong>Term:</strong> ${term.value} years</p>`;
-      fn.value=name.value; fa.value=age.value; fe.value=email.value; fc.value=cov; ft.value=term.value;
-    }
-    // disable double submit
-    document.getElementById('f').addEventListener('submit',function(e){
-      const b=this.querySelector('button[type="submit"]'); b.textContent='Submitting…'; b.disabled=true;
-    });
-    setProg();
+    })();
+  </script>
+
+  <!-- LocalBusiness structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "InsuranceAgency",
+    "name": "Dail Stancill, PE",
+    "url": "https://ndstancill.github.io/",
+    "telephone": "+1-540-239-4791",
+    "areaServed": ["VA","CA","FL","TX","GA","PA","WV","SC","NC","AL"],
+    "description": "Life insurance quotes in 60 seconds with no-exam options and A+ carriers. Licensed help from Dail Stancill, PE.",
+    "sameAs": []
+  }
   </script>
 </body>
 </html>
